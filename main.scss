@@ -1,12 +1,15 @@
 $body-bg: rgb(223, 223, 255);
 $primary: rgb(0, 0, 0);
+$kulayPula:rgb(194, 28, 28);
+$secondary:rgb(207, 172, 108);
+$kulayAsul:rgb(98, 0, 255);
 
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors: (
     "btnSearch": rgb(102, 56, 202),
-    "bodycolor": rgb(132, 182, 230)
+    "kulayPula": rgb(132, 182, 230)
 );
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
