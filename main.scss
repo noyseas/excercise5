@@ -12,14 +12,22 @@ $theme-colors: map-merge($theme-colors, $custom-theme-colors);
 
 @import "./node_modules/bootstrap/scss/bootstrap";
 
-.searchTerm{
-    text-align: center; 
-}
+
 .spin{
     width: 40px;
 }
-.wrap{
+.form-wrap{
+    position: relative;
     align-items: center;
+}
+.searchTerm{
+    vertical-align: top;
+    text-align: center; 
+    height: 38px;
+    width: 80%;
+}
+.search{
+    padding: 5px 0 0 0;
 }
 .talata {
     color: tint-color($primary, 8%);
